@@ -1,168 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #eaf4fc;
-            font-size: 18px;
-            margin: 0;
-            padding: 0;
-        }
-        header{
-            background-color: #4B9CD3;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1{
-            font-size: 50px;
-            font-family: "Playfair Display", serif;
-            margin: 0;
-        }
-        nav{
-            margin-top: 10px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        nav a{
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover{
-            text-decoration: underline;
-        }
-        section{
-            padding: 40px;
-            line-height: 1.6;
-            font-size: 0.8em;
-        }
-        .profile-pic{
-            border-radius: 50%;
-            width: 200px;
-            height: 200px;
-            margin-top: 15px;
-            border: 3px solid #4B9CD3;
-            object-fit: cover;
-        }
-        ul{
-            padding: 20px;
-            list-style-type: square;
-        }
-        a{
-            color: #4B9CD3;
-        }
-        #contact a{
-            color: #4B9CD3;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satya Sri Devi | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4b0082;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 5px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #4b0082;
+      border-bottom: 2px solid #4b0082;
+      padding-bottom: 5px;
+    }
+
+    img {
+      display: block;
+      margin: 10px auto;
+      border-radius: 10px;
+      max-width: 100%;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    a {
+      color: #4b0082;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact p {
+      font-size: 1.1em;
+    }
+
+    .profile-pic {
+      width: 180px;
+      border-radius: 50%;
+      border: 3px solid #4b0082;
+    }
+  </style>
 </head>
-
 <body>
-    <header>
-        <h1>Sri Devi</h1>
-        <nav>
-            <a href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="#Skills">Skills</a>
-            <a href="#Work">Work</a>
-            <a href="#Certifications">Certifications</a>
-            <a href="#Contact">Contact</a>
-        </nav>
-    </header>
 
-    <section id="Home">
-        <h2>Hi,<br>I'm <span style="color: #4B9CD3;">Satya Sri Devi</span></h2>
-        <h3>Aspiring Full Stack Developer</h3>
-        <img src="https://raw.githubusercontent.com/SriDevi214302/Portfolio-Website/main/IMG-20250817-WA0013.jpg" alt="MY IMAGE" class="profile-pic">
+  <header>
+    <h1>Hi, I'm Satya Sri Devi</h1>
+    <p>Aspiring Full Stack Developer</p>
+    <img src="https://raw.githubusercontent.com/SriDevi214302/Portfolio-Website/main/IMG-20250817-WA0013.jpg" alt="MY IMAGE" class="profile-pic">
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>About</h2>
+      <p>
+        Hi! I'm N. Satya Sri Devi, recently completed my Bachelor Degree in the stream of Electronics and Communication Engineering
+        from Swarnandhra College of Engineering and Technology. With a strong foundation in C and Python,
+        I have recently embarked on my journey into the world of Python Full Stack Development.
+      </p>
+      <p>
+        I'm passionate about web development and always eager to learn new technologies. My goal is to become a skilled developer
+        who can create meaningful and user-friendly digital experiences. I've worked on academic projects like the Automatic
+        Employee Lateness Alert System and participated in virtual internships on AI-ML and IoT with ARM.
+      </p>
+      <p>
+        As a fresher, I'm looking for opportunities to grow, learn, and contribute to real-world software development.
+        I'm a quick learner, a positive thinker, and always ready to take on new challenges.
+      </p>
     </section>
 
-    <section id="About">
-        <h2>About</h2>
-        <p>Hi! I'm <b>N.Satya Sri Devi</b>, recently completed my Bachelor Degree in <b>Electronics and Communication Engineering</b> from Swarnandhra College of Engineering and Technology. With a strong foundation in <b>C</b> and <b>Python</b>, I have recently embarked on my journey into the world of <b>Python Full Stack Development</b>.</p>
-        <p>I'm passionate about web development and always eager to learn new technologies. My goal is to become a skilled developer who can create meaningful and user-friendly digital experiences. I've worked on academic projects like the <b>Automatic Employee Lateness Alert System</b> and participated in virtual internships on <b>AI-ML</b> and <b>IoT with ARM</b>.</p>
-        <p>As a fresher, I'm looking for opportunities to grow, learn, and contribute to real-world software development. I'm a <b>quick learner</b>, a <b>positive thinker</b>, and always ready to take on new challenges.</p>
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>C Programming</li>
+        <li>MS Office</li>
+        <li>Windows OS</li>
+        <li>Embedded C</li>
+        <li>Communication Skills</li>
+        <li>Time Management</li>
+      </ul>
     </section>
 
-    <section id="Skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Python</li>
-            <li>C Programming</li>
-            <li>MS Office</li>
-            <li>Windows OS</li>
-            <li>Embedded C</li>
-            <li>Communication Skills</li>
-            <li>Time Management</li>
-        </ul>
+    <section>
+      <h2>Projects</h2>
+
+      <h3>Automatic Employee Lateness Alert System</h3>
+      <p><strong>Role:</strong> Team Lead</p>
+      <p><strong>Technologies Used:</strong> Embedded C, A7670C GSM Module, Microcontroller</p>
+      <p><strong>Tools Used:</strong> Arduino IDE</p>
+      <p>
+        As the team lead, I guided the development of a real-time alert system to track employee attendance and punctuality.
+        The system uses a GSM module (A7670C) to send SMS alerts directly to HR and a primary authority when an employee is late.
+      </p>
+      <p>
+        This project strengthened my leadership, teamwork, hardware integration, and embedded programming skills.
+      </p>
+
+      <h3>Community Service Project - Mapping Road in Rural Areas</h3>
+      <p><strong>Organization:</strong> APSCHE & Government of Andhra Pradesh</p>
+      <p><strong>Role:</strong> Volunteer</p>
+      <p>
+        Participated in a community service initiative aimed at improving rural infrastructure by mapping and surveying road
+        networks in villages to assist government planning.
+      </p>
+
+      <h3>Portfolio Website</h3>
+      <p><strong>Role:</strong> Developer & Designer</p>
+      <p><strong>Technologies Used:</strong> HTML, CSS</p>
+      <p>
+        Created a personal portfolio website to showcase my skills, projects, and certifications.
+        <br>
+        🔗 <a href="https://sridevi214302.github.io/Portfolio-Website/" target="_blank">View Live Project</a>
+      </p>
     </section>
 
-    <section id="Work">
-        <h2>Project</h2>
-        <h3 style="font-size: 20px;"><b>Title:</b> Automatic Employee Lateness Alert System</h3>
-        <p><b>Role:</b> Team Lead</p>
-        <p><b>Technologies Used:</b> Embedded C, A7670C GSM Module, Microcontroller</p>
-        <p><b>Tools Used:</b> Arduino IDE</p>
-        <p>As the team lead, I guided the development of a real-time alert system to track employee attendance and punctuality. The system uses a GSM module (A7670C) to send SMS alerts directly to HR when an employee is late.</p>
-        <p>This project strengthened my leadership, teamwork, hardware integration, and embedded programming skills.</p>
+    <section>
+      <h2>Certifications</h2>
 
-        <h2>Community Service Project – Mapping Road in Rural Areas</h2>
-        <p><strong>Organization:</strong> APSCHE & Government of Andhra Pradesh</p>
-        <p><strong>Role:</strong> Volunteer</p>
-        <p><strong>Description:</strong> Participated in a community service initiative aimed at improving rural infrastructure by mapping and surveying road networks in villages. Helped government planning and identified unpaved or underdeveloped roads.</p>
+      <h3>MSME Training on Innovative Industry Technology - AI, IoT, and Robotics</h3>
+      <p><strong>Issued by:</strong> MSME Technology Centre(V), Visakhapatnam</p>
+      <p><strong>Date:</strong> 09 August 2024</p>
+      <p><strong>Location:</strong> Swarnandhra College of Engineering & Technology, Narsapur</p>
+      <img src="https://raw.githubusercontent.com/SriDevi214302/Portfolio-Website/main/MSME%20CERTIFICATION.png" alt="MSME Certificate" width="300">
 
-        <h2>Portfolio Website</h2>
-        <p><strong>Role:</strong> Developer & Designer</p>
-        <p><strong>Technologies Used:</strong> HTML, CSS</p>
-        <p><strong>Description:</strong> Created a personal portfolio website to showcase my skills, projects, and certifications. Designed with a clean layout and responsive navigation. Hosted on GitHub Pages.</p>
-        <a href="https://github.com/SriDevi214302/Portfolio-Website" target="_blank">
-            <strong>🔗 View Live Project</strong>
-        </a>
+      <h3>AI-ML Virtual Internship</h3>
+      <p><strong>Issued by:</strong> AICTE-Eduskills</p>
+      <p><strong>Duration:</strong> September - November 2023</p>
+      <img src="https://raw.githubusercontent.com/SriDevi214302/Portfolio-Website/main/AI-ML%20Certification.png" alt="AI-ML Certificate" width="300">
+
+      <h3>Google Cloud Computing Foundations</h3>
+      <p><strong>Issued by:</strong> NPTEL - IIT Kharagpur</p>
+      <p><strong>Platform:</strong> SWAYAM</p>
+      <p><strong>Date:</strong> August - October 2024</p>
+      <img src="https://raw.githubusercontent.com/SriDevi214302/Portfolio-Website/main/GOOGLE%20CLOUD%20COMPUTING%20FOUNDATIONS.png" alt="GOOGLE CLOUD COMPUTING FOUNDATIONS" width="300">
     </section>
 
-    <section id="Certifications">
-        <h2>Certifications</h2>
-
-        <h3 style="font-size:15px;">MSME Training on Innovative Industry Technology AI, IoT, and Robotics</h3>
-        <p><strong>Issued by:</strong> MSME Technology Centre(V), Visakhapatnam</p>
-        <p><strong>Date:</strong> 09 August 2024</p>
-        <p><strong>Location:</strong> Swarnandhra College of Engineering & Technology, Narsapur</p>
-        <p><strong>Description:</strong> Participated in an industrial training program focusing on AI, IoT, and Robotics.</p>
-        <a href="https://raw.githubusercontent.com/SriDevi214302/Portfolio-Website/main/MSME%20CERTIFICATION.png" target="_blank">
-            <img src="https://raw.githubusercontent.com/SriDevi214302/Portfolio-Website/main/MSME%20CERTIFICATION.png" alt="MSME Certificate" width="300">
-        </a>
-
-        <h3 style="font-size:15px;">AI-ML Virtual Internship</h3>
-        <p><strong>Issued by:</strong> AICTE-Eduskills</p>
-        <p><strong>Duration:</strong> September–November 2023</p>
-        <p><strong>Description:</strong> Completed a virtual internship program focused on AI and ML fundamentals.</p>
-        <a href="https://raw.githubusercontent.com/SriDevi214302/Portfolio-Website/main/AI-ML%20Certification.png" target="_blank">
-            <img src="https://raw.githubusercontent.com/SriDevi214302/Portfolio-Website/main/AI-ML%20Certification.png" alt="AI-ML Certificate" width="300">
-        </a>
-
-        <h3 style="font-size:15px;">Google Cloud Computing Foundations</h3>
-        <p><strong>Issued by:</strong> NPTEL–IIT Kharagpur</p>
-        <p><strong>Platform:</strong> SWAYAM</p>
-        <p><strong>Date:</strong> August–October 2024</p>
-        <p><strong>Description:</strong> Completed foundational coursework on cloud technologies and services within Google Cloud Platform.</p>
-        <a href="https://raw.githubusercontent.com/SriDevi214302/Portfolio-Website/main/GOOGLE%20CLOUD%20COMPUTING%20FOUNDATIONS.png" target="_blank">
-            <img src="https://raw.githubusercontent.com/SriDevi214302/Portfolio-Website/main/GOOGLE%20CLOUD%20COMPUTING%20FOUNDATIONS.png" alt="Google Cloud Certificate" width="300">
-        </a>
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>📧 <strong>Email:</strong> <a href="mailto:satyasridevi2004@gmail.com">satyasridevi2004@gmail.com</a></p>
+      <p>💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/satyasridevi/" target="_blank">linkedin.com/in/satyasridevi</a></p>
+      <p>💻 <strong>GitHub:</strong> <a href="https://github.com/SriDevi214302" target="_blank">github.com/SriDevi214302</a></p>
     </section>
 
-    <section id="Contact">
-        <h2>Contact</h2>
-        <p>📧 Email: satyasridevi2004@gmail.com</p>
-        <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/satyasridevi/" target="_blank">linkedin.com/in/satyasridevi</a></p>  
-        <p>💻 GitHub: <a href="https://github.com/SriDevi214302" target="_blank">github.com/SriDevi214302</a></p>
-    </section>
+  </div>
+
 </body>
 </html>
